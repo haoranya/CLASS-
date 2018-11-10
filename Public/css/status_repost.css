@@ -1,0 +1,109 @@
+.container-fluid {
+  padding-right: 95px;
+  padding-left: 95px;
+  text-align: center;
+}
+.content{
+  /*background-color: pink;*/
+  border: 1px solid #ccc;
+}
+.logo{
+  width: 400px;
+  height: 150px;
+  margin-bottom: 30px;
+  margin-left: -37px;
+}
+.h_title{
+  font-weight:bold;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.p_1{
+  font-size: 22px;
+}
+.p_2{
+  font-size: 27px;
+  font-weight:900;
+}
+.p_one{
+  margin-bottom: 60px;
+  display: inline-block;
+}
+.p_two{
+  
+  margin-bottom: 60px;
+}
+.p_three{
+  float: left;
+}
+.p_four{
+  float: left;
+}
+.p_3{
+  font-size: 30px;
+  /*font-weight:550;*/
+}
+.div_one td{
+  width: 180px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 19px;
+}
+.p_title_one{
+  font-weight: 500;
+  font-size: 19px;
+  float: left;
+}
+.span_title_one{
+  font-weight: 500;
+  font-size: 19px;
+  float: left;
+  display: inline-block;
+}
+.div_two td{
+  width: 138px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 19px;
+}
+.table_left{
+  display: inline-block;
+  margin-bottom: 25px;
+  float: left;
+}
+.div_p{
+  display: inline-block;
+}
+
+
+.layui-form-label {
+    float: left;
+    display: block;
+    padding: 9px 15px;
+    width: 25px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.layui-input-block {
+    margin-left: 30px;
+    min-height: 36px;
+}
+
+.spanx{
+  text-align: left;
+}
+.spanx span{
+  display: block;
+  float: left;
+  font-size: 18px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.table_conter td{
+  text-align: center;
+}
+.table_conter a{
+  color: #337ab7;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="../../../../Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../Public/css/bootstrap.min.css">
+    <link href="../../../../Public/css/font-awesome.min.css"  rel="stylesheet">
+    <link href="../../../../Public/css/animate.min.css" rel="stylesheet">
+    <link href="../../../../Public/css/style.min_EDT.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../../../Public/css/master.css">
+    <link rel="stylesheet" type="text/css" href="../../../../Public/css/plugins/iCheck/custom.css">
+    <title>我的主页</title>
+    <style>
+
+        .right-r{
+            width: 400px;
+            height: 628px;
+            background-color: #fff;
+            float: right;
+           /*  margin-top: 20px; */
+            
+        }
+        .left-l{
+            float: left;
+        }
+        .right-z{
+            height: 50px;
+            /* font-size: 17px; */
+            line-height: 50px;
+            border-bottom: 1px #a39f8f solid;
+            padding-left: 10px;
+        }
+
+</style>
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins" style="margin: 0 70px">
+                <div class="ibox-title">
+                    <h5>我的主页</h5>
+                </div>
+                <div class="ibox-content left-l" style="width: 70% ; margin-top: 20px">
+                    <div class="row">
+                        <form class="form-horizontal">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                     <div class="col-sm-4">
+                                        <div class="J_menuItem">
+                                        <div class="widget p-lg text-center">
+                                            <div class="m-b-md">
+                                               <img src="../../../../Public/images/zy.png" alt="">
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="J_menuItem">
+                                        <div class="widget p-lg text-center">
+                                            <div class="m-b-md">
+                                                <h1 class="m-xs">沭阳2017级软件工程系全栈1班</h1>
+                                                <br>
+                                                <span class="m-xs box-block">姓名：王二狗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 学号：12138</span>
+                                                <br>
+                                                <span class="m-xs box-block">班主任：瑶瑶&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;班级人数：65</span>
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>                        
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="row m-b-lg m-t-lg">
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4 text-center">
+                            <div class="form-group">
+                     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover" id="ListTB">
+                            <thead>
+                                <tr>
+                                 
+                                  <th>迟到次数</th>
+                                  <th>迟到时间</th>
+                                  <th>请假次数</th>
+                                  <th>请假次数</th>
+                                  <th>违纪次数</th> 
+                                  <th>违纪时间</th>                     
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   
+                                    <td>1</td>
+                                    <td>2018-4-24</td>
+                                    <td>1</td>
+                                    <td>2018-4-24</td>
+                                    <td>1</td>
+                                    <td>2018-4-24</td>
+                                 
+                                </tr>
+                                <tr>
+                                    
+                                   <td>1</td>
+                                    <td>2018-4-24</td>
+                                    <td>1</td>
+                                    <td>2018-4-24</td>
+                                    <td>1</td>
+                                    <td>2018-4-24</td>
+                                </tr>
+                                <tr>
+                                   
+                                    <td>1</td>
+                                    <td>2018-4-24</td>
+                                    <td>1</td>
+                                    <td>2018-4-24</td>
+                                    <td>1</td>
+                                    <td>2018-4-24</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <nav class="navbar-right" id="pagination">
+                                <ul class="pagination no-margins">
+                                    <li class="active"><a href="javascript:;">1</a></li><li><a href="javascript:;" onclick="ToPageIndex(2)">2</a></li><li><a href="javascript:;" onclick="ToPageIndex(3)">3</a></li><li><a href="javascript:;" onclick="ToPageIndex(4)">4</a></li><li><a href="javascript:;" onclick="ToPageIndex(5)">5</a></li><li><a href="javascript:;" onclick="ToPageIndex(6)">6</a></li><li><a href="javascript:;" onclick="ToPageIndex(7)">7</a></li><li><a href="javascript:;" onclick="ToPageIndex(8)">8</a></li><li><a href="javascript:;" onclick="ToPageIndex(2)">&gt;</a></li><li><a aria-label="Next" href="javascript:;" onclick="ToPageIndex(32)"><span aria-hidden="true">&gt;&gt;</span></a></li>
+                                </ul>
+                            </nav>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-sm-3 text-left">
+                            共 <span class="text-danger">318 </span>条，第 <span class="text-danger">1 / 32 </span> 页
+                        </div>
+    
+                    </div>
+                </div>
+             <!--    <div class="right-r" >
+             
+                 <div class="right-z">班级通知</div>
+                 <div></div>
+             
+             </div> -->
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3 style="margin-left: 200px;">暂无数据!</h3> -->
+<script src="../../../../Public/js/jquery.min.js"></script>
+<script src="../../../../Public/js/bootstrap.min.js"></script>
+<script src="../../../../Public/js/plugins/iCheck/icheck.min.js"></script>
+<script src="../../../../Public/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".nav-tab-info li a:eq(0)").addClass("active");
+        $(".i-checks").iCheck({
+            checkboxClass:"icheckbox_square-green",
+            radioClass:"iradio_square-green"
+        })
+    });
+</script>
+</body>
+</html>

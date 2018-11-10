@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../../../../Public/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../../../Public/js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="../../../../Public/js/jquery.jqprint-0.3.js"></script>
+</head>
+<style type="text/css">
+
+	tr,th{
+
+		border:1px solid #333;
+
+	}
+
+	th{
+		font-size: 15px;
+		width: 60px;
+
+		height: 30px;
+
+	}
+
+	table{
+
+		border-collapse: collapse;
+	}
+
+	.box{
+
+		width: 680px;
+
+		margin:0 auto;
+
+		height: 400px;
+
+		text-align: center;
+
+		transform:rotate(180deg);
+
+		position: relative;
+
+	}
+
+
+
+	.left{
+
+		float: right;
+
+		margin-right: 10%;	
+
+		margin-top: 30px;	
+
+	}
+
+	.right{
+
+		float: right;
+
+	}
+
+
+
+	.new{
+
+		display: inline-block;
+
+		width: 90px;
+
+		height: 30px;
+
+		background-color:black;
+
+		line-height: 30px;
+
+		border-radius: 10px;
+
+		color:red;
+
+		font-weight: bold;
+
+		margin-top: -350px;
+		float: right;
+	
+		position: absolute;
+	
+		left: 0px;
+		
+		transform:rotate(180deg);
+	}
+
+	.new:hover{
+
+		color:black;
+
+		background-color: #0f0;
+
+		cursor:pointer ;
+
+	}
+
+	.Y10{
+
+		background-color: #CCFF99;
+
+	}
+
+	.Y11{
+
+		background-color: #CCFFFF;
+
+	}
+
+	.Y12{
+
+		background-color: #FFCCCC;
+
+	}
+
+	.Y13{
+
+		background-color: #CC9966;
+
+	}
+
+	.Y14{
+
+		background-color: #FFCC99;
+
+	}
+	.Y15{
+
+		background-color: #FF6666;
+
+	}
+
+	.Y16{
+
+		background-color: #CCCCCC;
+
+	}
+	.Y17{
+
+		background-color: #99CCFF;
+
+	}
+	.Y18{
+
+		background-color: #FFFF99;
+
+	}
+	.Y19{
+
+		background-color: #CCFFCC;
+
+	}
+	.Y20{
+
+		background-color: #FF99CC;
+
+	}
+
+	input{
+
+		width: 60px;
+
+		height: 30px;
+
+	}
+	.title{
+		/*transform: rotateX(-180deg);
+		transform: rotateY(180deg);*/
+		transform:rotate(180deg);
+		position: absolute;
+		top: 305px;
+    	left: 270px;
+	}
+	
+	.t_one{
+		transform: rotateY(180deg);
+	}
+	.t_two{
+		transform: rotateY(180deg);
+	}
+	
+	.t_one th{
+		transform: rotateX(-180deg);
+	}
+	.t_two th{
+		transform: rotateX(-180deg);
+	}
+</style>
+<body>
+ <div class="box" id="ddd">
+     <h1 class="title">全栈一班座位表</h1>
+
+	<div class="right">
+
+		<table class="t_one">
+			<tr>
+				
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+		</table>
+
+		<a onclick='hy()' class='new'>新座位表</a>
+
+
+	<!-- 	<button onclick="aa()">打印</button> -->
+
+	</div>
+
+	<div class="left">
+
+		<table class="t_two">
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+		</table>
+
+		
+
+	</div>
+
+	
+  </div>
+
+	
+</body>
+</html>
+<script type="text/javascript">
+
+$(function(){
+
+
+
+
+	$.getJSON('../../../../Public/ajax.php',function(data){
+
+		var tr_arr = $('th');
+
+	    var num = tr_arr.length;
+		
+	    for(var i=0;i<num-1;i++){
+
+	    	var name = data[i].substring(2);
+
+	    	var str = data[i].substring(0,2);
+
+	    	$(tr_arr[i]).addClass("Y"+str+"");
+
+	    	$(tr_arr[i]).text(name);
+
+	    }
+	    
+	   
+   })
+  
+
+	$('th').click(function(){
+
+		var content = $(this).text();
+
+		var Class = $(this).attr("class");
+
+		$(this).replaceWith("<input type='text' class='text' id='' value="+content+">");
+
+	        $('.text').blur(function(){
+
+					 var value = $('.text').val();
+
+					 var timestamp="ID"+new Date().getTime();
+
+					 time = timestamp;
+
+					$('.text').replaceWith("<th id="+time+" onclick='hz()' class="+Class+" >"+value+" </th>");
+
+				})
+
+	})
+
+	
+
+ })
+
+   function hy(){
+
+   		window.location.reload();
+
+   }
+  function hz(){
+
+  	    var content = $('#'+time).text();
+
+		var Class = $('#'+time).attr("class");
+
+  	   $('#'+time).replaceWith("<input type='text' class='text' id='' value="+content+">");
+
+  	    $('.text').blur(function(){
+
+					 var value = $('.text').val();
+
+					 var timestamp="ID"+new Date().getTime();
+
+					 time = timestamp;
+
+					$('.text').replaceWith("<th id="+time+" onclick='hz()' class="+Class+" >"+value+" </th>");
+
+				})
+
+  }
+
+  function aa(){
+	$("#ddd").jqprint();
+ }
+
+
+
+
+</script>
